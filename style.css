@@ -1,37 +1,25 @@
-/*some style*/
-*,
-*::after,
-*::before {
-    box-sizing: border-box;
-}
-
-body {
+*{
+    margin: 0px;
+    padding: 0px;
     font-family: sans-serif;
-}
-.container {
-    display:flex;
 
-    flex-direction: row;
-    justify-content: space-between;
 }
-.container div{
-    padding:20px;
-    flex-basis:30%;
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
 }
-.container .child1{
-    background:#f1c40f;
-   order:3;
+.container{
+    display: flex;
 }
-.container .child2{
-    background:#ff6430;
-    order:3;
+.card{
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
 }
-
-.container .child3{
-    background:#0ff113;
-    order:2;
-}
-.container .child4{
-    background: rgb(248, 56, 187);
-    order:1;
+.card img{
+    height: 100px;
+    width: 150px;
 }
